@@ -1,3 +1,43 @@
+cuerpo {
+    font-family: monoespacio;
+}
+
+Ul {
+    font-family: helvetica;
+}
+* {
+  font-family: Arial, sans-serif;
+}
+
+Li {
+  estilo-lista: círculo;
+}
+
+. lista {
+  estilo-lista: cuadrado;
+}
+
+#Msg {
+  font-family: monoespacio;
+}
+html, cuerpo {
+  margen: 0;
+  borde: 0;
+  relleno: 0;
+  background-color:  #fff;
+}
+
+principal {
+  margen: auto;
+  ancho: 50% ;
+  relleno: 20px ;
+}
+
+ > principal h1 {
+  text-align: centro;
+  font-size: 3.5em ;
+}
+
 html, cuerpo {
   margen: 0;
   relleno: 0;
