@@ -5,84 +5,30 @@ cuerpo {
 Ul {
     font-family: spectral;
 }
-* {
-  font-family: Arial, sans-serif;
+ {
+  font-family: spectral, Arial, sans-serif;
 }
 
-Li {
-  estilo-lista: círculo;
-}
-
-. lista {
-  estilo-lista: cuadrado;
-}
-
-#Msg {
-  font-family: monoespacio;
-}
-html, cuerpo {
-  margen: 0;
-  borde: 0;
-  relleno: 0;
-  background-color:  #fff;
-}
-
-principal {
-  margen: auto;
-  ancho: 50% ;
-  relleno: 20px ;
-}
-
- > principal h1 {
-  text-align: centro;
-  font-size: 3.5em ;
-}
-
-html, cuerpo {
-  margen: 0;
-  relleno: 0;
-  altura: 100% ;
-}
-
-cuerpo {
-  transición: fondo 2s  facilidad;
-  fondo:  #4cf;
-  pantalla: flex;
-  align-items: centro;
-  justify-content: centro;
-}
-
-#citar {
-  font-family: 'Indie Flower', cursiva;
-  font-size: 6vw ;
-  relleno: 3vw ;
-  color:  #fff;
-  text-shadow: 0 0 10px   #000;
-  text-align: centro;
-}
-
-. cargador {
-  ancho: 250px ;
-  altura: 250px ;
-  background-color:  #fff;
-  radio-frontera: 100% ;  
-  animación: scaleout 2s  infinita facilidad de in-out;
-}
-
-escalado horizontal de @keyframes {
-  0% {
-    transformar: escala(0);
-  }
-  100% {
-    transformar: escala(1.0);
-    opacidad: 0;
-  }
-}
-
-p{
+p {
 color: red;
 }
 
-h2{
-color: blue;
+li {
+  list-style: circle;
 }
+
+.list {
+  list-style: square;
+}
+
+#msg {
+  font-family: monospace;
+}
+
+.light-theme {
+  color: #000000;
+  background: #00FF00;
+}
+
+
+
