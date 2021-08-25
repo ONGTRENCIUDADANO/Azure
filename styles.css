@@ -3,13 +3,13 @@ cuerpo {
 }
 
 Ul {
-    font-family: spectral;
+    font-family: ubuntu;
 }
  {
-  font-family: spectral, Arial, sans-serif;
+  font-family: spectral, ubuntu, sans-serif;
 }
 
-h {
+h2 {
 color: red;
 }
 
