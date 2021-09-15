@@ -1,40 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script
-      crossorigin="anonymous"
-      src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"
-    ></script>
-    <style>
-      html,
-      body {
-         height: 100%;
-      }
+<html lang="es">
 
-      body {
-        margin: 0;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Osvaldo Vega">
+  <meta name="description" content="ONG Tren Ciudadano (ONG) facilita el acceso a la tecnología digital mediante su proyecto digital para organizaciones sociales"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index"/>
+  <meta property="og:image" content="https://.png">
+  <meta property="og:description" content="ONG Tren Ciudadano (MDN) proporciona enseñanza y entrenamiento sobre tecnologías Open Web, incluidas HTML, CSS y APIs para ambos sitios web y aplicaciones HTML5. También documenta productos Mozilla, como el sistema operativo Firefox.">
+  <meta property="og:title" content="ONG Tren Ciudadano">
+  <meta name="twitter:title" content="ONG Tren Ciudadano">
+  <meta http-equiv="expires" content="tiempo de expiración en 604800 segundos"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <script src="my-js-file.js"></script>
+  <title>Proyecto Digital Portal Cuidadano</title>
+</head>
+  
+  <header>
+	<h1>Portal Ciudadano</h1>
+	  
+	<h2>Nuestro bot ciudadano.</h2>
+	<ul>
+		<li><a href="inicio.html">Inicio</a></li>
+		<li><a href="unaseccion.html">Proyectps</a></li>
+		<li><a href="otraseccion.html">Comuna</a></li>
+	</ul>
+</header>
 
-      #webchat {
-        height: 100%;
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="webchat" role="main"></div>
-    <script>
-      window.WebChat.renderWebChat(
-        {
-          directLine: window.WebChat.createDirectLine({
-            token: 'YOUR_DIRECT_LINE_TOKEN'
-          }),
-          userID: 'YOUR_USER_ID',
-          username: 'Web Chat User',
-          locale: 'en-US'
-        },
-        document.getElementById('webchat')
-      );
-    </script>
-  </body>
+<body id="myId"> 
+  <section class="register-account"> 
+        <div class="signform">      
+          <div class="left"><a href="#" style="float:right;margin-right:35px;font-size: 0.9em;" class="bts-a">Don't have an account? Sign up!</a>
+            <div class="bts">
+              <a href="#" class="fblogin social"><i class="fa fa-facebook"></i><span>Sign in with Facebook</span></a>
+               <a href="#" class="twlogin social"><i class="fa fa-twitter"></i><span>Sign in with Twitter</span></a>
+              <a href="#" class="gplogin social"><i class="fa fa-google-plus"></i><span>Sign in with Google</span></a>             
+            </div>
+          </div>
+          <div class="right">
+              <div class="headit">
+                <h4>Login To Your Account</h4>
+              </div>
+              <div class="form">
+                <form class="login-form" id="login-form">
+                    <input type="text" placeholder="User Name"/>
+                    <input type="password" placeholder="Password"/>        
+                    <input class="subbt" type="submit" value="Sign In" style="border:none;"/>   
+                </form>
+                <input type="checkbox" id="remember" name="remember"><span style="color:#b6b6b6;font-size: 0.9em;"> Remember Me</span><a href="#">Forgot your password?</a>        
+              </div>
+          </div>       
+        </div>
+  </section>
+	<body>
+		
+
 </html>
